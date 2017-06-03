@@ -1,0 +1,155 @@
+{
+	"extensionName":
+	{
+		"message": "Buyer Alert"
+	},
+
+	"extensionDescription":
+	{
+		"message": "Powiadamia ona użytkownika, jeśli znajdzie się na stronie o adresie lub zawartości zawartej w filtrze."
+	},
+
+	"notificationTitle":
+	{
+		"message": "Ostrzeżenie!"
+	},
+	
+	"optionsTitle":
+	{
+		"message": "Opcje"
+	},
+	
+	"optionsIgnoredURL":
+	{
+		"message": "Ignorowane strony:"
+	},
+	
+	"optionsIgnoredWord":
+	{
+		"message": "Ignorowane hasła:"
+	},
+	
+	"optionsIgnoredCourierCompany":
+	{
+		"message": "Ignorowane opcje wysyłki:"
+	},
+	
+	"optionsIgnoredNone":
+	{
+		"message": "Brak"
+	},
+	
+	"optionsIgnoredRemove":
+	{
+		"message": "Usuń z listy"
+	},
+	
+	"optionsLists":
+	{
+		"message": "Listy filtrów:"
+	},
+	
+	"optionsAddToList":
+	{
+		"message": "Dodaj filtr"
+	},
+	
+	"optionsRemoveFromList":
+	{
+		"message": "Usuń filtr"
+	},
+	
+	"optionsUpdateFrequencyList":
+	{
+		"message": "Częstotliwość aktualizacji filtrów:"
+	},
+	
+	"optionsUpdateFrequencyListDaily":
+	{
+		"message": "Codziennie"
+	},
+	
+	"optionsUpdateFrequencyListTwiceWeekly":
+	{
+		"message": "Dwa razy w tygodniu"
+	},
+	
+	"optionsUpdateFrequencyListOnceWeek":
+	{
+		"message": "Raz w tygodniu"
+	},
+	
+	"optionsSave":
+	{
+		"message": "Zapisz"
+	},
+	
+	"optionsUpdate":
+	{
+		"message": "Aktualizacja filtrów z dnia"
+	},
+	
+	"notificationURL":
+	{
+		"message": "Wybrana strona $URL$ jest zawarta w filtrze $filtr$.\n\nZalecany jest wybór innego sklepu.\nKliknij, aby zamknąć komunikat.",
+		"placeholders":
+		{
+			"url" :
+			{
+				"content" : "$1",
+				"example" : "https://developer.mozilla.org"
+			},
+			"filtr" :
+			{
+				"content" : "$2",
+				"example" : "country.json"
+			}
+		}
+	},
+	
+	"notificationProduct":
+	{
+		"message": "Na wybranej stronie $URL$ znajduje się produkt ($product$) zawarty w filtrze $filtr$.\n\nZalecany jest wybór innego produktu.\nKliknij, aby zamknąć komunikat.",
+		"placeholders":
+		{
+			"url" :
+			{
+				"content" : "$1",
+				"example" : "https://developer.mozilla.org"
+			},
+			"filtr" :
+			{
+				"content" : "$2",
+				"example" : "country.json"
+			},
+			"product" :
+			{
+				"content" : "$3",
+				"example" : "example"
+			}
+		}
+	},
+	
+	"notificationDelivery":
+	{
+		"message": "Na wybranej stronie $URL$ znajduje się sposób dostawy zawarty w filtrze $filtr$.\n\nZalecany jest wybór innego sposobu dostawy.\nKliknij, aby zamknąć komunikat.",
+		"placeholders":
+		{
+			"url" :
+			{
+				"content" : "$1",
+				"example" : "https://developer.mozilla.org"
+			},
+			"filtr" :
+			{
+				"content" : "$2",
+				"example" : "country.json"
+			},
+			"product" :
+			{
+				"content" : "$3",
+				"example" : "example"
+			}
+		}
+	}
+}
